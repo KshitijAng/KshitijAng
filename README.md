@@ -33,11 +33,11 @@ Outside work, I build production-style side projects in backend + AI infrastruct
 
 ### Stack I work with
 
-**Languages:** Python · Java · JavaScript · TypeScript · SQL
-**AI / LLM:** LangChain · Langfuse · Pydantic · Cohere · Groq · OpenAI
-**Backend:** FastAPI · Spring Boot · Spring AI · Next.js
-**Data:** PostgreSQL · pgvector · Redis · MongoDB · Elasticsearch
-**Infra:** Docker · Kubernetes · AWS · Kafka
+- **Languages:** Python · Java · JavaScript · TypeScript · SQL
+- **AI / LLM:** LangChain · Langfuse · Pydantic · Cohere · Groq · OpenAI
+- **Backend:** FastAPI · Spring Boot · Spring AI · Next.js
+- **Data:** PostgreSQL · pgvector · Redis · MongoDB · Elasticsearch
+- **Infra:** Docker · Kubernetes · AWS · Kafka
 
 
 ### Connect
