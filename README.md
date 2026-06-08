@@ -49,7 +49,9 @@ Outside work, I build production-style side projects in backend + AI infrastruct
 
 ### What I've been exploring lately
 
-- Hybrid-search retrieval with sparse + dense fusion (RRF) and cross-encoder reranking
+- Hybrid-search retrieval combining sparse + dense fusion (RRF) and cross-encoder reranking
 - Citation-grounded LLM answers — making generation traceable to source chunks
-- End-to-end LLM observability with Langfuse
-- LangGraph and the agentic layer on top of RAG (next up)
+- End-to-end LLM observability with Langfuse traces across retrieval and generation
+- Multi-phase LLM pipelines with batched API calls, retry backoff, and rate-limit pacing
+- AI automation testing for Chat Agents using React + FastAPI + Playwright
+- AI adoption analytics pipelines built on SQS-based orchestration with feature-wise S3 snapshots
