@@ -42,7 +42,7 @@ Outside work, I build production-style side projects in backend + AI infrastruct
 
 ### Connect
 
-[LinkedIn](https://www.linkedin.com/in/kshitijangurala/) · kshitijangurala903@gmail.com
+[LinkedIn](https://www.linkedin.com/in/kshitijangurala/) · kshitijangurala903@gmail.com · [Linktree](https://linktr.ee/kshitijatech)
 
 *Open to backend / AI engineering opportunities — Bengaluru, remote, or hybrid.*
 
