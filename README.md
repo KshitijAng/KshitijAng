@@ -37,7 +37,7 @@ Outside work, I build production-style side projects in backend + AI infrastruct
 - **AI / LLM:** LangChain · Langfuse · Pydantic · Cohere · Groq · OpenAI
 - **Backend:** FastAPI · Spring Boot · Spring AI · Next.js
 - **Data:** PostgreSQL · pgvector · Redis · MongoDB · Elasticsearch
-- **Infra:** Docker · Kubernetes · AWS · Kafka
+- **Infra:** Docker · AWS 
 
 
 ### Connect
