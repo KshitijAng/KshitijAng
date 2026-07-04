@@ -1,6 +1,6 @@
 ### Hi, I'm Kshitij 👋
 
-AI engineer building backend systems and LLM pipelines. Currently shipping multi-phase LLM workflows, AI adoption analytics, and chat-agent automation at **Hiver** — an AI-powered customer service platform.
+AI engineer building backend systems and LLM pipelines. Currently shipping multi-phase LLM workflows, AI adoption analytics, and chat-agent automation at.
 
 Outside work, I build production-style side projects in backend + AI infrastructure to feel the rough edges of modern AI engineering hands-on.
 
@@ -18,6 +18,11 @@ Outside work, I build production-style side projects in backend + AI infrastruct
 
 - Reduced LLM setup friction by scripting model provisioning and standardizing config across Llama 3.1 deployments, gaining hands-on exposure to Transformer architecture and open-source LLM tooling.
 - Established a RAG-based Gen AI solution using LangChain, OpenAI, and Pinecone; tuned chunking and retrieval parameters to deliver contextually relevant responses on internal document queries.
+
+**Kreativstorm** — Data Analysis Trainee · Sep 2024 – Oct 2024
+
+- Cleaned and analysed 8+ datasets using IBM SPSS, resolving inconsistencies to improve data reliability and produce decision-ready outputs.
+- Collaborated with a cross-functional remote team to streamline reporting workflows and deliver data-driven project insights.
 
 
 ### What I've built
