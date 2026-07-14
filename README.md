@@ -27,7 +27,7 @@ Outside work, I build production-style side projects in backend + AI infrastruct
 
 ### What I've built
 
-🔍 **[HybridRAG](https://github.com/KshitijAng/Hybrid-RAG-with-pgvector-Cohere-Rerank-3.5)** — Hybrid-search RAG over technical documentation (pgvector + Postgres FTS + RRF + Cohere rerank-3.5) with citation-grounded answers and Langfuse traces. *[Article writeup ↗](https://www.linkedin.com/pulse/building-hybridrag-what-i-learned-retrieval-reranking-angurala-pcetc/)*
+🔍 **[Hybrid Search System](https://github.com/KshitijAng/Hybrid-RAG-with-pgvector-Cohere-Rerank-3.5)** — Hybrid Search RAG over technical documentation (pgvector + Postgres FTS + RRF + Cohere rerank-3.5) with citation-grounded answers and Langfuse traces. *[Article writeup ↗](https://www.linkedin.com/pulse/building-hybridrag-what-i-learned-retrieval-reranking-angurala-pcetc/)*
 
 🎫 **[TicketSense](https://github.com/KshitijAng/TicketSense)** — LLM-powered support ticket triage with Pydantic structured outputs, two-tier storage (Postgres + Redis), and a Groq primary + fallback model setup. Processed 300 tickets in ~12 minutes with zero failures.
 
