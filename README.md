@@ -47,13 +47,10 @@ citation-grounded generation, and end-to-end Langfuse tracing.
 ✅ **[Vendor Onboarding Validator](https://github.com/KshitijAng/vendor-onboarding-validator)** - 
 6-stage deterministic + LLM hybrid validation pipeline with hard 
 FAIL vs soft WARN logic across 41 test cases. LLM restricted to 
-borderline name-mismatch adjudication only — deterministic checks 
+borderline name-mismatch adjudication only - deterministic checks 
 handle all upstream validation.
 
-🎫 **[TicketSense](https://github.com/KshitijAng/TicketSense)** -  
-Groq-powered LLM ticket triage processing 300 tickets in ~12 
-minutes, backed by layered async Python architecture and 
-two-tier Postgres + Redis storage.
+🎫 **[TicketSense](https://github.com/KshitijAng/TicketSense)** - Groq-powered LLM ticket triage processing 300 tickets in ~12 minutes, backed by layered async Python architecture and two-tier Postgres + Redis storage.
 
 
 ### Stack I work with
