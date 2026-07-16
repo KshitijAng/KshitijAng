@@ -1,62 +1,87 @@
 ### Hi, I'm Kshitij 👋
 
-AI engineer building backend systems and LLM pipelines. Currently shipping multi-phase LLM workflows, AI adoption analytics, and chat-agent automation at.
+Early-career engineer interested in building LLM-backed systems with backend depth - orchestration, retrieval, observability, and thinking about where AI should and shouldn't make decisions.
 
-Outside work, I build production-style side projects in backend + AI infrastructure to feel the rough edges of modern AI engineering hands-on.
+Open to Applied AI / AI Engineer roles
 
 
 ### Experience
 
-**[Hiver](https://hiverhq.com)** — AI Intern · Dec 2025 – Jun 2026
+**Hiver** - AI Intern · Dec 2025 – Jun 2026
 
-- Owned key AI Adoption/ROI initiatives across backend and frontend, leveraging Redis for precomputed metrics, integrating AI workflows powered by Elasticsearch, Gainsight, and MySQL, and shifting heavy aggregations to backend services.
-- Architected a 5-phase AI Tasks Opportunity Pipeline, running 21 cookbook recipes across 5 batched LLM (GPT-5.4) calls, with retry backoff on 429s and rate-limit pacing; added signal-keyword evidence filtering for accuracy.
-- Built an end-to-end AI automation testing platform for Chat Agents (React + FastAPI + Playwright), enabling automated execution of a 15-step happy-path scenario and per-run artifact lifecycle (replay video + failure screenshots).
-- Designed and implemented a daily AI adoption pipeline that computes per-UG daily AI usage metrics separate from 30/60/90-day windows and publishes feature-wise JSON snapshots to S3 using SQS-based orchestration and batched processing.
+- Architected a 5-phase pipeline to identify AI adoption opportunities across the customer base, running 21 recipes across 5 batched GPT-5.4 calls with retry backoff, signal-keyword filtering, and PII-aware email cleaning.
 
-**[Ernst & Young](https://www.ey.com)** — Generative AI Intern · Sep 2024 – Nov 2024
+- Designed an SQS-based orchestration pipeline computing per-usergroup AI usage metrics across 30/60/90-day windows, publishing feature-wise JSON snapshots to S3 with Redis-precomputed aggregations.
 
-- Reduced LLM setup friction by scripting model provisioning and standardizing config across Llama 3.1 deployments, gaining hands-on exposure to Transformer architecture and open-source LLM tooling.
-- Established a RAG-based Gen AI solution using LangChain, OpenAI, and Pinecone; tuned chunking and retrieval parameters to deliver contextually relevant responses on internal document queries.
+- Built an end-to-end AI automation testing platform (React + FastAPI + Playwright) with automated execution of a 15-step Chat Agent scenario and per-run artifact capture (replay video + failure screenshots).
 
-**Kreativstorm** — Data Analysis Trainee · Sep 2024 – Oct 2024
+**[Ernst & Young](https://www.ey.com)** - Generative AI Intern · Sep 2024 – Nov 2024
+
+- Reduced LLM setup friction by scripting model provisioning and standardizing deployment config across Llama 3.1, 
+  streamlining environment setup for the team's Gen AI development workflow.
+  
+- Established a RAG pipeline using LangChain, OpenAI, and Pinecone; tuned chunk size and retrieval parameters across internal document queries to improve response accuracy and source grounding.
+
+**Kreativstorm** - Data Analysis Trainee · Sep 2024 – Oct 2024
 
 - Cleaned and analysed 8+ datasets using IBM SPSS, resolving inconsistencies to improve data reliability and produce decision-ready outputs.
+
 - Collaborated with a cross-functional remote team to streamline reporting workflows and deliver data-driven project insights.
 
 
 ### What I've built
 
-🔍 **[Hybrid Search System](https://github.com/KshitijAng/Hybrid-RAG-with-pgvector-Cohere-Rerank-3.5)** — Hybrid Search RAG over technical documentation (pgvector + Postgres FTS + RRF + Cohere rerank-3.5) with citation-grounded answers and Langfuse traces. *[Article writeup ↗](https://www.linkedin.com/pulse/building-hybridrag-what-i-learned-retrieval-reranking-angurala-pcetc/)*
+🤖 **[Dossier](https://github.com/KshitijAng/Dossier)** — 
+Agentic AI research assistant built on a 5-node LangGraph state 
+machine (planner → searcher → reader → synthesizer → critic) 
+with a bounded self-critique loop, citation-grounded reports, 
+Langfuse observability, and a Next.js + MUI frontend. 
+*[Live ↗](https://dossier-three-woad.vercel.app)*
 
-🎫 **[TicketSense](https://github.com/KshitijAng/TicketSense)** — LLM-powered support ticket triage with Pydantic structured outputs, two-tier storage (Postgres + Redis), and a Groq primary + fallback model setup. Processed 300 tickets in ~12 minutes with zero failures.
+🔍 **[Hybrid Search System](https://github.com/KshitijAng/Hybrid-RAG-with-pgvector-Cohere-Rerank-3.5)** — 
+Hybrid retrieval over 5,753 chunks using dense + sparse search 
+fused via RRF, Cohere rerank-3.5 cross-encoder, 
+citation-grounded generation, and end-to-end Langfuse tracing. 
+*[Article ↗](https://www.linkedin.com/pulse/building-hybridrag-what-i-learned-retrieval-reranking-angurala-pcetc/)*
 
-🧠 **[AI Hub](https://github.com/KshitijAng/AI-Hub-SpringBoot)** — Spring Boot 3.5 + React 19 chat & code-generation app on Spring AI + Groq, with reusable PromptTemplate definitions shared across routes.
+✅ **[Vendor Onboarding Validator](https://github.com/KshitijAng/vendor-onboarding-validator)** — 
+6-stage deterministic + LLM hybrid validation pipeline with hard 
+FAIL vs soft WARN logic across 41 test cases. LLM restricted to 
+borderline name-mismatch adjudication only — deterministic checks 
+handle all upstream validation.
 
-📦 **[FlowVentry](https://github.com/KshitijAng/FlowVentry-Inventory-Management)** — Next.js 15 + MongoDB inventory app with cached MongoClient singleton and $text aggregation pipeline for relevance search.
+🎫 **[TicketSense](https://github.com/KshitijAng/TicketSense)** — 
+Groq-powered LLM ticket triage processing 300 tickets in ~12 
+minutes, backed by layered async Python architecture and 
+two-tier Postgres + Redis storage.
 
 
 ### Stack I work with
 
-- **Languages:** Python · Java · JavaScript · TypeScript · SQL
-- **AI / LLM:** LangChain · Langfuse · Pydantic · Cohere · Groq · OpenAI
-- **Backend:** FastAPI · Spring Boot · Spring AI · Next.js
-- **Data:** PostgreSQL · pgvector · Redis · MongoDB · Elasticsearch
-- **Infra:** Docker · AWS 
+
+- **Languages:** Python · SQL
+- **AI / LLM:** LangChain · LangGraph · Langfuse · RAG · 
+  Pinecone · pgvector · Groq
+- **Backend:** FastAPI · Pydantic · SQLAlchemy · SQS · 
+  AWS (S3, Athena)
+- **Databases:** PostgreSQL · Redis · MySQL · Elasticsearch
+- **Infra:** Docker · Git
+
+
+### What I'm focused on
+
+- Agentic AI — LangGraph state machines, bounded self-critique 
+  loops, tool-use orchestration
+- Hybrid retrieval — dense + sparse fusion (RRF) and 
+  cross-encoder reranking
+- Deterministic-first AI design — LLMs for ambiguity, 
+  deterministic logic for everything else
+- LLM observability — Langfuse tracing across every node, 
+  token cost and latency per request
+- Citation-grounded generation — making LLM answers traceable 
+  to source chunks
 
 
 ### Connect
 
 [LinkedIn](https://www.linkedin.com/in/kshitijangurala/) · kshitijangurala903@gmail.com · [Linktree](https://linktr.ee/kshitijatech)
-
-*Open to backend / AI engineering opportunities — Bengaluru, remote, or hybrid.*
-
-
-### What I've been exploring lately
-
-- Hybrid-search retrieval combining sparse + dense fusion (RRF) and cross-encoder reranking
-- Citation-grounded LLM answers — making generation traceable to source chunks
-- End-to-end LLM observability with Langfuse traces across retrieval and generation
-- Multi-phase LLM pipelines with batched API calls, retry backoff, and rate-limit pacing
-- AI automation testing for Chat Agents using React + FastAPI + Playwright
-- AI adoption analytics pipelines built on SQS-based orchestration with feature-wise S3 snapshots
