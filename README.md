@@ -31,26 +31,26 @@ Open to Applied AI / AI Engineer roles
 
 ### What I've built
 
-🤖 **[Dossier](https://github.com/KshitijAng/Dossier)** — 
+🤖 **[Dossier](https://github.com/KshitijAng/Dossier)** - 
 Agentic AI research assistant built on a 5-node LangGraph state 
 machine (planner → searcher → reader → synthesizer → critic) 
 with a bounded self-critique loop, citation-grounded reports, 
 Langfuse observability, and a Next.js + MUI frontend. 
 *[Live ↗](https://dossier-three-woad.vercel.app)*
 
-🔍 **[Hybrid Search System](https://github.com/KshitijAng/Hybrid-RAG-with-pgvector-Cohere-Rerank-3.5)** — 
+🔍 **[Hybrid Search System](https://github.com/KshitijAng/Hybrid-RAG-with-pgvector-Cohere-Rerank-3.5)** - 
 Hybrid retrieval over 5,753 chunks using dense + sparse search 
 fused via RRF, Cohere rerank-3.5 cross-encoder, 
 citation-grounded generation, and end-to-end Langfuse tracing. 
 *[Article ↗](https://www.linkedin.com/pulse/building-hybridrag-what-i-learned-retrieval-reranking-angurala-pcetc/)*
 
-✅ **[Vendor Onboarding Validator](https://github.com/KshitijAng/vendor-onboarding-validator)** — 
+✅ **[Vendor Onboarding Validator](https://github.com/KshitijAng/vendor-onboarding-validator)** - 
 6-stage deterministic + LLM hybrid validation pipeline with hard 
 FAIL vs soft WARN logic across 41 test cases. LLM restricted to 
 borderline name-mismatch adjudication only — deterministic checks 
 handle all upstream validation.
 
-🎫 **[TicketSense](https://github.com/KshitijAng/TicketSense)** — 
+🎫 **[TicketSense](https://github.com/KshitijAng/TicketSense)** -  
 Groq-powered LLM ticket triage processing 300 tickets in ~12 
 minutes, backed by layered async Python architecture and 
 two-tier Postgres + Redis storage.
@@ -70,15 +70,15 @@ two-tier Postgres + Redis storage.
 
 ### What I'm focused on
 
-- Agentic AI — LangGraph state machines, bounded self-critique 
+- Agentic AI - LangGraph state machines, bounded self-critique 
   loops, tool-use orchestration
-- Hybrid retrieval — dense + sparse fusion (RRF) and 
+- Hybrid retrieval - dense + sparse fusion (RRF) and 
   cross-encoder reranking
-- Deterministic-first AI design — LLMs for ambiguity, 
+- Deterministic-first AI design - LLMs for ambiguity, 
   deterministic logic for everything else
-- LLM observability — Langfuse tracing across every node, 
+- LLM observability - Langfuse tracing across every node, 
   token cost and latency per request
-- Citation-grounded generation — making LLM answers traceable 
+- Citation-grounded generation - making LLM answers traceable 
   to source chunks
 
 
