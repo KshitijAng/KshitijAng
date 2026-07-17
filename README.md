@@ -17,10 +17,9 @@ Open to Applied AI / AI Engineer roles
 
 **[Ernst & Young](https://www.ey.com)** - Generative AI Intern · Sep 2024 – Nov 2024
 
-- Reduced LLM setup friction by scripting model provisioning and standardizing deployment config across Llama 3.1, 
-  streamlining environment setup for the team's Gen AI development workflow.
+- Built a document Q&A RAG pipeline using LangChain, Stella embeddings selected via MTEB leaderboard, and Chroma, with PyMuPDF text extraction, chunking, and top-k retrieval for grounded source-cited answers.
   
-- Established a RAG pipeline using LangChain, OpenAI, and Pinecone; tuned chunk size and retrieval parameters across internal document queries to improve response accuracy and source grounding.
+- Benchmarked local Llama 3.1 against Groq-hosted inference on the same pipeline, evaluating the privacy vs. latency tradeoff for sensitive document workloads.
 
 **Kreativstorm** - Data Analysis Trainee · Sep 2024 – Oct 2024
 
