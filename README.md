@@ -9,11 +9,11 @@ Open to Applied AI / AI Engineer roles
 
 **Hiver** - AI Intern · Dec 2025 – Jun 2026
 
-- Architected a 5-phase pipeline to identify AI adoption opportunities across the customer base, running 21 recipes across 5 batched GPT-5.4 calls with retry backoff, signal-keyword filtering, and PII-aware email cleaning.
+- Assisted in developing a 5-phase LLM pipeline to surface AI adoption opportunities across the customer base, using batched GPT-5.4 calls with retry backoff, signal-keyword filtering, and PII-aware email preprocessing.
 
-- Designed an SQS-based orchestration pipeline computing per-usergroup AI usage metrics across 30/60/90-day windows, publishing feature-wise JSON snapshots to S3 with Redis-precomputed aggregations.
+- Supported development of an SQS-based orchestration pipeline computing per-usergroup AI usage metrics across 30/60/90-day windows, publishing feature-wise JSON snapshots to S3 with Redis-precomputed aggregations.
 
-- Built an end-to-end AI automation testing platform (React + FastAPI + Playwright) with automated execution of a 15-step Chat Agent scenario and per-run artifact capture (replay video + failure screenshots).
+- Contributed to an end-to-end AI automation testing platform (React + FastAPI + Playwright), enabling automated execution of a 15-step Chat Agent scenario with per-run artifact capture (replay video + failure screenshots).
 
 **[Ernst & Young](https://www.ey.com)** - Generative AI Intern · Sep 2024 – Nov 2024
 
@@ -38,14 +38,13 @@ Langfuse observability, and a Next.js + MUI frontend.
 *[Live ↗](https://dossier-three-woad.vercel.app)*
 
 🔍 **[Hybrid Search System](https://github.com/KshitijAng/Hybrid-RAG-with-pgvector-Cohere-Rerank-3.5)** - 
-Hybrid retrieval over 5,753 chunks using dense + sparse search 
-fused via RRF, Cohere rerank-3.5 cross-encoder, 
+Hybrid retrieval over 5,753 chunks using dense + sparse search combined via rank-based fusion, Cohere rerank-3.5 cross-encoder, 
 citation-grounded generation, and end-to-end Langfuse tracing. 
 *[Article ↗](https://www.linkedin.com/pulse/building-hybridrag-what-i-learned-retrieval-reranking-angurala-pcetc/)*
 
 ✅ **[Vendor Onboarding Validator](https://github.com/KshitijAng/vendor-onboarding-validator)** - 
 6-stage deterministic + LLM hybrid validation pipeline with hard 
-FAIL vs soft WARN logic across 41 test cases. LLM restricted to 
+FAIL vs soft WARN logic. LLM restricted to 
 borderline name-mismatch adjudication only - deterministic checks 
 handle all upstream validation.
 
